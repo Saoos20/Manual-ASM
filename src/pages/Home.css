@@ -1,0 +1,121 @@
+/* Contenedor principal */
+.home-container {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #f4f4f4;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  padding: 50px 0;
+  background: #282c34;
+  color: #fff;
+}
+
+.header h1 {
+  font-size: 3rem;
+  color: #ffffff;
+}
+
+.header p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+/* Sección de introducción */
+.intro {
+  max-width: 1100px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0 0 15px #ccc;
+  border-radius: 8px;
+}
+
+.intro h2 {
+  color: #007BFF;
+}
+
+.intro p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+/* Sección de datos relevantes */
+.data-section {
+  max-width: 1100px;
+  margin: 30px auto;
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0 0 15px #ccc;
+  border-radius: 8px;
+}
+
+.data-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.data-card {
+  flex: 1;
+  padding: 20px;
+  background: #f0f0f0;
+  box-shadow: 0 0 10px #ccc;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.data-card:hover {
+  transform: translateY(-5px);
+}
+
+.data-card h3 {
+  color: #007BFF;
+}
+
+/* Sección de navegación */
+.navigation {
+  text-align: center;
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0 0 15px #ccc;
+  border-radius: 8px;
+  max-width: 1100px;
+  margin: 30px auto;
+}
+
+.navigation ul {
+  list-style: none;
+  padding: 0;
+}
+
+.navigation li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navigation a:hover {
+  color: #0056b3;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 15px 0;
+  background: #282c34;
+  color: #fff;
+  margin-top: 40px;
+}
